@@ -21,7 +21,7 @@ There are a lack of repositories to start from to build community driven open so
 - **Node.js** is an open-source, cross-platform JavaScript run-time environment that executes JavaScript code outside of a browser. 
 - Run `nvm install node` in **Cmder** to install the newest version of **Node.js**. 
 - To check the version of **Node.js**, run `node --version` in **Cmder**.
-- In order to install the **pristine-cli** module, you also need to have the latest version of [**npm **](<https://www.npmjs.com/get-npm>). 
+- In order to install the **pristine-cli** module, you also need to have the latest version of [**npm **](<https://www.npmjs.com/get-npm>) program. 
 - The **npm (node package manager)** program is a package manager for **Node.js** packages (or so-called modules). 
 - Fortunately, **npm** is distributed with **Node.js**. Once you have successfully installed **Node.js**,  you should be able to use run **npm** in your **Cmder** right away. 
 - It should be noted that **npm** is a separate project from **Node.js** and tends to be updated more frequently. It is important to check the version by running `npm --version` in **Cmder**.  
