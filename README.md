@@ -1,20 +1,21 @@
 # Pristine CLI ReadMe
 
 - [What is Pristine?](#heading1)
-- Setup Instructions for Beginners
-- What is Pristine CLI?
-- How to Use Pristine CLI?
-- Resources
-- Contributing
+- [Setup Instructions for Beginners](#heading2)
+- [What is Pristine CLI?](#heading3)
+- [How to Use Pristine CLI?](#heading4)
+- [Resources](#resources)
+- [Contributing](#contributing)
 
-## What is Pristine? ## <a name = "heading1"></a>
+<a name = "heading1"></a>
+## What is Pristine?  
 
 [Pristine](https://github.com/etclabscore/pristine) is an open source repository in its original condition.
 
 There are a lack of repositories to start from to build community driven open source projects. Pristine is a complete starting point, it follows a Documentation Driven Development approach, and can be used as a resource to augment existing documentation.
 
 
-
+<a name="heading2"></a>
 ## Setup Instructions for Beginners ##
 
 ### Cmder ###
@@ -43,7 +44,7 @@ There are a lack of repositories to start from to build community driven open so
 - It should be noted that **npm** is a separate project from **Node.js** and tends to be updated more frequently. It is important to check the version by running `npm --version` in **Cmder**.  
 
 
-
+<a name="heading3"></a>
 ## What is Pristine CLI? ##
 
 Pristine CLI is a Commander Line Interface that allows a user to create his or her project based on various pristine DDD templates developed by ETC Lab Core on GitHub. 
@@ -55,6 +56,7 @@ Several options of templates to choose from are:
 - Pristine Typescript Electron: A template for Typescript Electron based applications
 - Pristine Typescript React Jade: A WIP template for P2P decentralized applications based on React and Jade’s DApp tooling suite.
 
+<a name="heading4"></a>
 ## How to use Pristine CLI
 
 - Install the Pristine CLI by running `npm install -g @etclabscore/pristine-cli` in **Cmder**.
@@ -64,7 +66,7 @@ Several options of templates to choose from are:
 
 ![pristine-cli-test2](https://user-images.githubusercontent.com/364566/60707733-3d8c6a80-9ec1-11e9-9a3e-7943c4e6e9ae.gif)
 
-
+<a name="resources"></a>
 #### Resources
 
 - [Pristine](https://github.com/etclabscore/pristine)
@@ -77,6 +79,8 @@ Several options of templates to choose from are:
 - [Hammock Driven Development](https://www.youtube.com/watch?v=f84n5oFoZBc)
 - [Inversion and The Power of Avoiding Stupidity](https://fs.blog/2013/10/inversion/)
 - [choosealicense.com](http://choosealicense.com)
+
+<a name='contributing'></a>
 
 ### Contributing
 
