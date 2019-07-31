@@ -1,8 +1,13 @@
 # Pristine CLI ReadMe
 
-A cli to make it super easy to select a Pristine github template to start from.
+- [What is Pristine?](#heading1)
+- Setup Instructions for Beginners
+- What is Pristine CLI?
+- How to Use Pristine CLI?
+- Resources
+- Contributing
 
-## What is Pristine?
+## What is Pristine? ## <a name = "heading1"></a>
 
 [Pristine](https://github.com/etclabscore/pristine) is an open source repository in its original condition.
 
@@ -10,25 +15,49 @@ There are a lack of repositories to start from to build community driven open so
 
 
 
-## Before You Get Started (Instructions for Beginners) ##
+## Setup Instructions for Beginners ##
+
+### Cmder ###
 
 - If you are a Windows User, you should download, unzip, and open [**Cmder**](<https://cmder.net/>) as your console commander. The advantage of using **Cmder** is its portability and UNIX compatibility. 
+
+### nvm ###
+
 - **nvm (node version manager)** is a tool that allows you to download and install Node.js. 
 - Download [**nvm for windows**](<https://github.com/coreybutler/nvm-windows/releases>) newest version from GitHub. 
 - Unzip the package and follow the installation instructions provided in **nvm-setup.exe**. 
 - To check if the installation is successful, run `nvm --version` in **Cmder**. You will see the latest version displayed.
-- Once you have finished the installation of **nvm**, you will be able to install [**Node.js**](<https://nodejs.org/en/>). 
+- Once you have finished the installation of **nvm**, you are ready to install [**Node.js**](<https://nodejs.org/en/>). 
+
+### Node.js ###
+
 - **Node.js** is an open-source, cross-platform JavaScript run-time environment that executes JavaScript code outside of a browser. 
 - Run `nvm install node` in **Cmder** to install the newest version of **Node.js**. 
 - To check the version of **Node.js**, run `node --version` in **Cmder**.
+
+### npm ###
+
 - In order to install the **pristine-cli** module, you also need to have the latest version of [**npm** ](<https://www.npmjs.com/get-npm>) program. 
 - The **npm (node package manager)** program is a package manager for **Node.js** packages (or so-called modules). 
 - Fortunately, **npm** is distributed with **Node.js**. Once you have successfully installed **Node.js**,  you should be able to use run **npm** in your **Cmder** right away. 
 - It should be noted that **npm** is a separate project from **Node.js** and tends to be updated more frequently. It is important to check the version by running `npm --version` in **Cmder**.  
 
+
+
+## What is Pristine CLI? ##
+
+Pristine CLI is a Commander Line Interface that allows a user to create his or her project based on various pristine DDD templates developed by ETC Lab Core on GitHub. 
+
+Several options of templates to choose from are:
+
+- Pristine Typescript: A template for Typescript-based applications
+- Pristine React: A template for React-based applications
+- Pristine Typescript Electron: A template for Typescript Electron based applications
+- Pristine Typescript React Jade: A WIP template for P2P decentralized applications based on React and Jade’s DApp tooling suite.
+
 ## How to use Pristine CLI
 
-- `npm install -g @etclabscore/pristine-cli`
+- Install the Pristine CLI by running `npm install -g @etclabscore/pristine-cli` in **Cmder**.
 - to start a new project using the Pristine template, try:`pristine-cli myNewProject`
 - follow the prompts to select a template and create a new project to suite your needs
 
